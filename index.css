@@ -1,0 +1,122 @@
+body {
+  background-color: #f7cac9;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.portfolio-header {
+  width: 83%;
+  margin: 0 auto;
+  padding: 25px;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-header h1 {
+  color: #ffdcdb;
+  background-color: #92a8d1;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+  line-height: 35pt;
+  padding: 10px;
+}
+
+.portfolio-content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #92a8d1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-image {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.portfolio-image img {
+  max-width: 100%;
+}
+
+.portfolio-text {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.portfolio-text h2 {
+  text-align: center;
+  color: #f7cac9;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.portfolio-text p {
+  color: #464a51;
+  font-family: Georgia, Garamond, serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.portfolio-text a {
+  color: #f7cac9;
+  font-family: Georgia, Garamond, serif;
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #f7cac9;
+  padding-bottom: 2px;
+}
+
+.portfolio-text a:hover {
+  border-bottom-color: #464a51;
+}
+
+.about-me {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #92a8d1;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.about-me h2 {
+  color: #f7cac9;
+  text-decoration: underline;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+}
+
+.about-me p {
+  color: #464a51;
+  font-family: Georgia, Garamond, serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.watermark-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.watermark {
+  display: inline-block;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #465a7e;
+  font-family: Georgia, Garamond, serif;
+}
